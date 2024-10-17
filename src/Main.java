@@ -15,7 +15,8 @@ public class Main {
 
     // 2 задание
     public static String appVersion(int clientOS, int clientDeviceYear) {
-        int currentYear = 2024;
+        // В задании написано про текущий год конечно, но допустим
+        int currentYear = 2015;
         switch (clientOS) {
             case 0 -> {
                 if (clientDeviceYear >= currentYear) {
